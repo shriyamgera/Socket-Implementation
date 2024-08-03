@@ -1,0 +1,25 @@
+.messages{
+    display:flex;
+    width: 100%;
+    background-color: aqua;
+}
+
+.sentMessage{
+    flex:50%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.receivedMessage{
+    flex: 50%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    font-size: 16px;
+}
